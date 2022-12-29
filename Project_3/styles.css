@@ -1,0 +1,28 @@
+header {
+    font-size: 300%;
+    background-color: darkgrey;
+    border: 8px ridge blue;
+    margin: 0% 0%;
+}
+
+#header_container {
+    background-color: black;
+}
+
+#form_container {   
+   background: linear-gradient(to bottom right, black, blue);
+}
+
+label {
+    color: white;
+}
+
+#instruction {
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+h3 {
+    color: white;
+}

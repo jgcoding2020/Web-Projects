@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <!--links to external files-->
+    <title>Statistical Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    </head>
+    <body>
+        <!--header container-->
+        <div class="container-fluid py-4" id="header_container">
+            <div class="text-center">
+                <header class="py-1">
+                <strong>Statistical Analysis</strong>
+                </header>
+            </div>
+        </div>
+        <!--instruction container-->
+        <div class="container-fluid pb-4" id="instruction">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="">Please enter three numbers to analyze</h1>
+                </div>
+            </div>
+        </div>
+        <!--Form and results container-->
+        <div class="container-fluid" id="form_container">
+            <!--Form row-->
+            <div class="row">
+                <!--Form columns-->
+                <div class="col-sm-5">
+                </div>
+                <div class="col-sm-4 pt-4">
+                    <form>
+                        <!--Form labels and inputs-->
+                        <label for="num1">Number 1:</label><br>
+                        <input type="number" id="num1" name="num1" placeholder="Enter a number" required><br>
+                        <label for="num2">Number 2:</label><br>
+                        <input type="number" id="num2" name="num2" placeholder="Enter a number" required><br>
+                        <label for="num3">Number 3:</label><br>
+                        <input type="number" id="num3" name="num3" placeholder="Enter a number" required>
+                        <button type="button" class="btn btn-primary" onclick="calculate()">Submit</button>
+                    </form>
+                </div>
+                <div class="col-sm-3">
+                </div>
+            </div>
+            <!--Results row-->
+            <div class="row pt-4">
+                <!--Results columns-->
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-2">
+                    <h3 id="min">Min: 0</h3>
+                </div>
+                <div class="col-sm-2">
+                    <h3 id="max">Max: 0</h3>
+                </div>
+                <div class="col-sm-2">
+                    <h3 id="range">Range: 0</h3>
+                </div>
+                <div class="col-sm-2">
+                    <h3 id="mean">Mean: 0</h3>
+                </div>
+                <div class="col-sm-2">
+                    <h3 id="median">Median: 0</h3>
+                </div>
+                <div class="col-sm-1">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pb-4 p-4" id="instruction">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="">Created by: Joshua David Gardner</h1>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
