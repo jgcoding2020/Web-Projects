@@ -1,0 +1,197 @@
+header {
+    text-align: center;
+    font-size: 300%;
+    background-color: darkgrey;
+    border: 8px ridge gray;
+    margin: 0px 50px;
+}
+
+#header_container {
+    height: 80px;
+    width: auto;
+    background-color: dodgerblue;
+    padding: 20px 0px;
+    border: 2px solid black;
+}
+
+.history {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 300%;
+    text-align: right;
+    margin-right: 22%;
+    margin-left: auto;
+}
+
+span {
+    font-size: 200%;
+}
+
+#bio_1 {
+    margin: 1% 20%;
+    object-fit: contain;
+    height: auto;
+    float: right;
+}
+
+#img_1 {
+    object-fit: contain;
+    height: auto;
+    width: 210px;
+    border: 8px ridge gray;
+    margin: 0% 0% 10% 10%;
+}
+
+#bio_2 {
+    margin: 1% 20%;
+    object-fit: contain;
+    height: auto;
+    float: right;
+}
+
+#img_2 {
+    object-fit: contain;
+    height: auto;
+    width: 300px;
+    border: 8px ridge gray;
+    position: bottom;
+    position: left;
+    margin: 10% 10% 10% 0%;
+}
+
+#bio_3{
+    margin: 1% 20%;
+    object-fit: contain;
+    height: auto;
+    float: right;
+}
+
+#img_3 {
+    object-fit: contain;
+    height: auto;
+    width: 210px;
+    border: 8px ridge gray;
+    margin: 0% 0% 10% 10%;
+}
+
+.clear {
+    clear: both;
+}
+
+#bio_4 {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#list_1 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 0%;
+    width: 16%;
+}
+
+#list_2 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 0%;
+    width: 16%;
+}
+
+#list_3 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    width: 16%;
+}
+
+#list_4 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    width: 16%;
+}
+
+#list_5 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    width: 16%;
+}
+
+#list_6 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: auto;
+    width: 16%;
+}
+
+#img_4 {
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    height: auto;
+    width: 350px;
+    border: 8px ridge gray;
+}
+
+#list_container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 80%;
+}
+
+#disc_golf_video {
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    border: 8px ridge gray;
+}
+
+#piano_video {
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    border: 8px ridge gray;
+}
+
+#entertainer_video {
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    border: 8px ridge gray;
+}
+
+nav {
+    margin-top: 150px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin-top: 150px;
+    margin-bottom: auto;
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+}
