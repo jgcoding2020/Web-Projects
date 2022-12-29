@@ -1,0 +1,72 @@
+header {
+    font-size: 300%;
+    background-color: darkgrey;
+    border: 8px ridge gray;
+    margin: 0% 0%;
+}
+
+#header_container {
+    background-color: dodgerblue;
+    border: 2px solid black;
+}
+
+#history {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 300%;
+    text-align: right;
+    margin-right: 22%;
+    margin-left: auto;
+}
+
+span {
+    font-size: 200%;
+}
+
+#img_1 {
+    border: 8px ridge gray;
+}
+
+#img_2 {
+    border: 8px ridge gray;
+}
+
+#img_3 {
+    border: 8px ridge gray;
+}
+
+#img_4 {
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    height: auto;
+    width: 350px;
+    border: 8px ridge gray;
+}
+
+#disc_golf_video {
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    border: 8px ridge gray;
+}
+
+#piano_video {
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    border: 8px ridge gray;
+}
+
+#entertainer_video {
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    border: 8px ridge gray;
+}
+
+table {
+    font-size: 150%;
+}
