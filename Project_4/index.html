@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <!--links to external files-->
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body class="container-fluid bg-dark" >
+        <!--body row 1-->
+        <div class="row">
+            <!--header container-->
+            <div class="container-fluid py-4" id="header_container">
+                <div class="text-center">
+                    <header class="py-1">
+                    <strong>Tic Tac Toe</strong>
+                    </header>
+                </div>
+            </div>
+        </div>
+        <!--body row 2-->
+        <div class="row bg-dark">
+            <!--instruction container-->
+            <div class="container-fluid pb-4" id="instruction">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 id="message">Play Tic Tac Toe!</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--body row 3-->
+        <div class="row">
+            <!--tic tac toe constainer-->
+            <div class="container-fluid d-flex justify-content-center" id="game_row"> 
+                <div class="row">
+                    <div class="col-12" id="tictactoe">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--body row 4-->
+        <div class="row bg-dark">
+            <!--score container-->
+            <div class="container-fluid pb-4" id="score_container">
+                <!--score container row 1-->
+                <div class="row">
+                    <div class="col-12">
+                        <h1 id="score_label"> score </h1>
+                    </div>
+                </div>
+                <!--score container row 2-->
+                <div class="row" id="score">
+                    <div class="col-3">
+                    </div>
+                    <div class="col-3">
+                        <h1 id="xScore" style="color: red;">0 = X</h1>
+                    </div>
+                    <div class="col-3">
+                        <h1 id="oScore"style="color: blue;">O = 0</h1>
+                    </div>
+                    <div class="col-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--body row 5-->
+        <div class="row">
+            <!--footer container-->
+            <div class="container-fluid p-4" id="footer">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Created by: Joshua David Gardner</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--body row 6-->
+        <div class="row bg-dark">
+            <!--music/ audio container-->
+            <div class="container-fluid p-4 pb-5" id="music">
+                <div class="row">
+                    <div class="col-12">
+                        <audio controls style="width: 100%;" allow="autoplay" loop alt="Metroid theme audio">
+                            <source src="Metroid Theme.mp3" allow="autoplay" loop alt="Metroid theme audio">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
